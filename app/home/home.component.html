@@ -1,0 +1,11 @@
+<ActionBar title="Put It In Rice" class="action-bar">
+</ActionBar>
+
+<GridLayout rows="auto, *, auto">
+	<StackLayout orientation="horizontal" row="0" padding="0">
+		<!-- <Label text="saveToGallery"></Label>
+		<Switch [(ngModel)]="saveToGallery"></Switch> -->
+	</StackLayout>
+	<Image row="1" [src]="cameraImage" stretch="fill" margin="6"></Image>
+	<Button text="Smile Please" (tap)="onTakePictureTap($event)" row="2" padding="0"></Button>
+</GridLayout>
